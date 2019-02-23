@@ -1,0 +1,154 @@
+
+/* Color Pallete */
+
+.Augusta-Blue  {
+  background-color:#002f55;
+}
+
+.Augusta-Grey {
+  color:#A5ACAF;
+}
+
+.Accent-Blue {
+  color:#64A0C8;
+}
+.Accent-Green {
+  color:#44d62c;
+}
+
+
+/* Responsive Hamburger Icon */
+.container {
+  display: inline-block;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 30px;
+  height: 5px;
+  background-color: #fff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-8px, 7px);
+  transform: rotate(-45deg) translate(-8px, 7px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/* Responsive Nav Bar */
+
+.topnav {
+  overflow: hidden;
+  background-color:#002f55;
+
+
+}
+
+.topnav-home {
+  float: left;
+}
+.topnav-link {
+  float: right;
+}
+
+.topnav-link, .topnav-home {
+  display: block;
+  text-align: center;
+  padding: 2rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: .1s ease-in;
+  color: #a5acaf;
+}
+
+.topnav-link:hover, .topnav-home:hover {
+ transform: scale(1.1);
+ color: #fff;
+}
+
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .topnav.responsive:hover a {
+    transform: none;
+  }
+
+  .topnav-link {
+    padding: .4rem;
+  }
+}
+/* Main Body Layout   */
+
+* {
+  box-sizing: border-box;
+}
+
+.p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  background-color: rgba(100, 160, 200, .2);
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 25px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media screen and (max-width: 600px) {
+
+  .p {
+    font-size: 1.0rem;
+  }
+}
