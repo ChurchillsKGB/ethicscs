@@ -87,6 +87,11 @@
   margin: 0 auto;
 }
 
+.subheader {
+  margin: 0 auto;
+  font-style: uppercase;
+}
+
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
