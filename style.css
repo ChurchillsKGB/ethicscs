@@ -145,7 +145,12 @@
   background-color: rgba(100, 160, 200, .2);
 }
 
-
+.sen {
+  display: block;
+  height:80%;
+  width:auto;
+  margin:0 auto;
+}
 
 .row::after {
   content: "";
