@@ -168,6 +168,9 @@
 .col-12 {width: 100%;}
 
 @media screen and (max-width: 600px) {
+  #header {
+    padding-bottom: 10%;
+  }
 
   .p {
     font-size: 1.0rem;
