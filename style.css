@@ -156,6 +156,7 @@
   content: "";
   clear: both;
   display: table;
+  top:65px;
 }
 
 [class*="col-"] {
