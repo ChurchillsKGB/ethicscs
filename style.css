@@ -50,6 +50,9 @@
 .topnav {
   overflow: hidden;
   background-color:#002f55;
+  width:100%;
+  position: fixed;
+  top:0;
 
 
 }
