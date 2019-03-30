@@ -89,7 +89,7 @@
 
 .subheader {
   margin: 0 auto;
-  font-style: uppercase;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 600px) {
