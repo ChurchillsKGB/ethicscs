@@ -185,4 +185,10 @@
     height: auto;
     margin: 0 auto;
   }
+  .hero {
+    display: block;
+   margin: 260px auto;
+   width:100%;
+  }
+
 }
