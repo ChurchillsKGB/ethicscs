@@ -20,10 +20,7 @@
 
 .hero {
   display: block;
- margin-left: auto;
- margin-right: auto;
- width: 50%;
- top:40%;
+ margin: 100px auto;
 }
 
 /* Responsive Hamburger Icon */
