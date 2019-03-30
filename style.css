@@ -147,7 +147,7 @@
 
 .sen {
   display: block;
-  height:80%;
+  height:50%;
   width:auto;
   margin:0 auto;
 }
@@ -195,5 +195,12 @@
    margin: 260px auto;
    width:100%;
   }
+  .sen {
+    float: right;
+    height:auto;
+    width: 100%;
+    margin:0 auto;
+  }
+
 
 }
