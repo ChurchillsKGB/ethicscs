@@ -16,7 +16,14 @@
   color:#44d62c;
 }
 
+/*home page */
 
+.hero {
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+}
 
 /* Responsive Hamburger Icon */
 .container {
