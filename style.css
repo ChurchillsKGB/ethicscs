@@ -16,6 +16,10 @@
   color:#44d62c;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 
 /* Responsive Hamburger Icon */
 .container {
