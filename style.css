@@ -138,10 +138,8 @@
   background-color: rgba(100, 160, 200, .2);
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+#header {
+  padding-bottom: 5%;
 }
 
 .row::after {
