@@ -90,9 +90,7 @@
   display: block;
   margin: 0 auto;
 }
-#header {
-  padding-bottom: 5%;
-}
+
 
 .subheader {
   text-align: center;
@@ -168,8 +166,9 @@
 .col-12 {width: 100%;}
 
 @media screen and (max-width: 600px) {
-  #header {
-    padding-bottom: 10%;
+
+  .row {
+    margin-top: 50px;
   }
 
   .p {
