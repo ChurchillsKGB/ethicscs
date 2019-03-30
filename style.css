@@ -21,6 +21,7 @@
 .hero {
   display: block;
  margin: 100px auto;
+ width:auto;
 }
 
 /* Responsive Hamburger Icon */
