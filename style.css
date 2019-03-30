@@ -152,11 +152,14 @@
   margin:0 auto;
 }
 
+.row {
+  top: 65px;
+}
+
 .row::after {
   content: "";
   clear: both;
   display: table;
-  top:65px;
 }
 
 [class*="col-"] {
