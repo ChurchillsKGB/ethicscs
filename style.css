@@ -90,6 +90,9 @@
   display: block;
   margin: 0 auto;
 }
+#header {
+  padding-bottom: 5%;
+}
 
 .subheader {
   text-align: center;
