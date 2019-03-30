@@ -82,8 +82,9 @@
 }
 
 .pic {
-  width: 100%;
+  width: 60%;
   height: auto;
+  display: block;
   margin: 0 auto;
 }
 
@@ -162,5 +163,10 @@
 
   .p {
     font-size: 1.0rem;
+  }
+  .pic {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
   }
 }
