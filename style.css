@@ -135,6 +135,12 @@
   background-color: rgba(100, 160, 200, .2);
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .row::after {
   content: "";
   clear: both;
